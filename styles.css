@@ -390,8 +390,9 @@ h3 {
     gap: 10px;  /* Thêm khoảng cách giữa các phần tử con */
 }
 
-.account-number-row {
+.account-number {
     display: flex;
+    text-decoration: underline;
     align-items: center;
     justify-content: space-between;
 }
