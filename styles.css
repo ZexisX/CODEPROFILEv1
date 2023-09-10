@@ -159,7 +159,7 @@ html, body {
 .rectanglea {
     clear: both;
     width: 576px;
-    height: 40px;
+    height: 45px;
     transform: translateY(80px);
     background-color: #1e293b;
     border-radius: 10px;
