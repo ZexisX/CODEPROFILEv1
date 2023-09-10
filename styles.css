@@ -16,7 +16,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #0f172a;
     font-family: 'Open Sans', sans-serif;
 }
@@ -369,7 +369,7 @@ h3 {
     flex: 1;
     color: #94a3b8;
     font-family: 'Open Sans', sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
     margin-left: 10px;  /* Thêm khoảng cách giữa logo và thông tin tài khoản */
 }
 
