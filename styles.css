@@ -4,6 +4,19 @@ html, body {
     background-color: #0f172a;
     font-family: 'Open Sans', sans-serif;
 }
+/* Cho điện thoại và các thiết bị màn hình nhỏ */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Cho điện thoại kích thước lớn hơn (ví dụ: tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+}
 
 .profile-container {
     display: flex; /* Sử dụng flexbox */
