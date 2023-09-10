@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-container {
+    display: flex; /* Sử dụng flexbox */
+    justify-content: space-between; /* Chia đôi thành hai phần bên trái và bên phải */
+    position: relative;
+    width: 576px;
+    height: 288px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: url('assets/img/background/R.jpg') center center / cover no-repeat;
+    border-radius: 10px;
+}
+
+.avatar-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    bottom: -1200px;
+}
+
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.name-badge {
+    display: flex;
+    align-items: center; 
+}
+
+.username {
+    margin-top: 10px;
+    margin-right: 5px; 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative; 
+    top: 20px; 
+}
+
+.text-blue-500 {
+    color: #3B82F6; 
+    margin-bottom: -20px; 
+}
+.bio {
+    margin-top: 15px;  
+    color: #94a3b8;
+    font-size: 18px;
+    text-align: center;
+}
+.verified-icon {
+    position: relative;
+    cursor: pointer;  
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+    white-space: nowrap; 
+    z-index: 10;
+}
+
+.verified-icon:hover .tooltip {
+    display: block;
+}
+.rectangle {
+    clear: both;
+    width: 576px;
+    transform: translateY(20px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    align-items: center; /* Căn giữa biểu tượng và văn bản theo chiều dọc */
+}
+.rectangle-cc {
+    clear: both;
+    width: 576px;
+    transform: translateY(38px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rectangle-ccc {
+    clear: both;
+    width: 576px;
+    height: 50px;
+    transform: translateY(50px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rectangle-ccccc {
+    clear: both;
+    width: 576px;
+    height: 45px;
+    transform: translateY(63px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.rectanglea {
+    clear: both;
+    width: 576px;
+    height: 40px;
+    transform: translateY(80px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.aduvjp {
+    clear: both;
+    width: 576px;
+    height: 45px;
+    transform: translateY(96px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.copyright {
+    font-size: 20px;
+    transform: translateY(90px);
+    color:#94a3b8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 3px;
+}
+@font-face {
+    font-family: 'AquireBold';
+    src: url('assets/fonts/AquireBold-8Ma60.otf') format('opentype');
+}
+
+
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center;     /* căn giữa theo chiều dọc */
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center;     /* căn giữa theo chiều dọc */
+    font-family: 'AquireBold', sans-serif;
+    color: #ffffff;
+}
+.aduvjpp {
+    clear: both;
+    width: 576px;
+    height: 300px;
+    transform: translateY(110px);
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    
+}
+
+
+.linkedin-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+}
+.icon {
+    margin-left: 10px;
+    color: #94a3b8;
+}
+.icons-container {
+    display: flex;
+    align-items: center; 
+}
+.iconss-container {
+    margin-left: 10px;
+}
+.app-container {
+    display: flex;
+    align-items: center;
+}
+.app-name {
+    margin-left: 10px;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.username-1 {
+    color: #94a3b8; /* Color for the username */
+    font-size: 14px; /* Font size for the username */
+}
+
+.text-slate-400 {
+    color: #94a3b8; /* Màu của biểu tượng */
+}
+
+.rectangle-text {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-left: 10px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+.content-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Chắc chắn rằng dòng cuối cùng không có khoảng cách dưới cùng */
+.rectangle .content-item:last-child {
+    margin-bottom: 0;
+}
+.link-style {
+    text-decoration: none;  /* Loại bỏ gạch chân */
+    color: #fff;            /* Màu trắng cho văn bản */
+}
+
+.link-style:hover {
+    text-decoration: underline;  /* Thêm gạch chân khi di chuột qua */
+}
+.button-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #1e293b;
+    color: #94a3b8;
+    font-weight: bold;
+    border: 0.1px solid #2a323f; /* Thêm viền 2px màu trắng */
+    padding: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.button-icon {
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    border: 0.1px solid #94a3b8; /* Thêm viền 2px màu trắng */
+}
+
+.send-email svg, .save-contact svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.send-email, .save-contact {
+    width: 280px;
+    height: 74px;
+}
+.aduvjpp {
+    clear: both;
+    width: 576px;
+    height: 150px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;  /* Tăng padding để nội dung không dính vào biên */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Thêm khoảng cách giữa các phần tử con */
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;  /* Thêm khoảng cách giữa các phần tử con */
+}
+
+.bank-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.account-info {
+    flex: 1;
+    color: #94a3b8;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;  /* Thêm khoảng cách giữa logo và thông tin tài khoản */
+}
+
+.momo, .mbbank {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.mbbank-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.bank-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Thêm khoảng cách giữa các phần tử con */
+}
+
+.account-number-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
