@@ -344,6 +344,7 @@ h3 {
     clear: both;
     width: 576px;
     height: 150px;
+    text-decoration: none;
     background-color: #1e293b;
     border-radius: 10px;
     text-align: left;
@@ -388,12 +389,13 @@ h3 {
 .bank-container {
     display: flex;
     align-items: center;
+    text-decoration: none;
     gap: 10px;  /* Thêm khoảng cách giữa các phần tử con */
 }
 
 .account-number {
     display: flex;
-    text-decoration: underline;
+    text-decoration: none;
     align-items: center;
     justify-content: space-between;
 }
