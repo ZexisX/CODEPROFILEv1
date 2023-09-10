@@ -16,6 +16,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    text-decoration: underline;
     background-color: #0f172a;
     font-family: 'Open Sans', sans-serif;
 }
